@@ -183,7 +183,7 @@ void lihat_antrean(){
     while (n != NULL){
         cout << no << ". [" << n->nota << "] " << n->nama << endl;
         n = n->next;
-        n++;
+        no++;
     }
     cout << endl;
 }

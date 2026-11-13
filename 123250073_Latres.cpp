@@ -125,7 +125,6 @@ void postorder(nodeTree *akar, int &no){
 void tambah_cucian(){
     int nota;
     string nama;
-    char input;
     cout << "Masukkan nomor nota    : ";
     cin >> nota;
     if (cin.fail() || nota <= 0){

@@ -221,7 +221,7 @@ void lihat_riwayat(){
     while (n != NULL){
         cout << no << ". [" << n->nota << "] " << n->nama << endl;
         n = n->next;
-        n++;
+        no++;
     }
     cout << endl;
 }

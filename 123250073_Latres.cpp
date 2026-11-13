@@ -266,15 +266,15 @@ void lihat_rak(){
     cout << "3. Post-order" << endl << endl;
     cout << "Masukkan pilihan Anda: ";
     cin >> pilihan;
-    cout << "endl";
+    cout << endl;
     switch (pilihan){
-    case 1:
+    case '1':
         preorder(root, no);
         break;
-    case 2:
+    case '2':
         inorder(root, no);
         break;
-    case 3:
+    case '3':
         postorder(root, no);
         break;
     default:
